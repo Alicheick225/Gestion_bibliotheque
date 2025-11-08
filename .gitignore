@@ -1,0 +1,31 @@
+#Fichiers de cache Python
+
+pycache/
+*.pyc
+*.pyd
+*.pyo
+
+#Environnement virtuel (NE JAMAIS VERSIONNER)
+
+venv/
+env/
+.venv/
+
+#Base de données par défaut de Django (SQLite)
+
+db.sqlite3
+
+#Fichiers de configuration sensibles
+
+.env
+settings/local.py
+
+#Fichiers d'historique de l'éditeur (VS Code, etc.)
+
+.vscode/
+.idea/
+
+#Fichiers de médias et de statiques générés en local
+
+media/
+static_collected/
